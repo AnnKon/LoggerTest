@@ -12,9 +12,9 @@ Add to composer
 ]
 ```
 
-Пример проверки на Laravel:
+Пример проверки на Laravel
 
-В routes/web
+В routes/web:
 ```
 Route::get('/test', [Controller::class, 'log']);
 ```
