@@ -1,6 +1,7 @@
 # LoggerTest
 
 Add to composer
+```
  "ann/logger": "*"
 
 "repositories": [
@@ -9,13 +10,17 @@ Add to composer
         "url": "https://github.com/AnnKon/LoggerTest"
     }
 ]
+```
 
 Пример проверки на Laravel:
 
 В routes/web
+```
 Route::get('/test', [Controller::class, 'log']);
+```
 
 В контроллере:
+```
 public function log()
     {
         $filePath = 'log-test.txt';
@@ -30,6 +35,7 @@ public function log()
         $logger->critical("Critical message");
         $logger->emergency("Emergency message");
     }
+```
     
 Создан файл public/log-test.txt со следующим содержимым (обращения к странице test):
 ```
