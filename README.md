@@ -32,7 +32,7 @@ public function log()
     }
     
 Создан файл public/log-test.txt со следующим содержимым (обращения к странице test):
-
+```
 Sun, 19 Feb 2023 13:31:41 +0000 info Info message
 Sun, 19 Feb 2023 13:31:41 +0000 alert Alert message
 Sun, 19 Feb 2023 13:31:41 +0000 error Error message
@@ -49,3 +49,4 @@ Sun, 19 Feb 2023 13:34:48 +0000 notice Notice message
 Sun, 19 Feb 2023 13:34:48 +0000 warning Warning message
 Sun, 19 Feb 2023 13:34:48 +0000 critical Critical message
 Sun, 19 Feb 2023 13:34:48 +0000 emergency Emergency message
+```
