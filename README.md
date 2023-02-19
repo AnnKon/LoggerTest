@@ -2,7 +2,7 @@
 
 Add to composer
 ```
- "ann/logger": "*"
+"ann/logger": "*"
 
 "repositories": [
     {
